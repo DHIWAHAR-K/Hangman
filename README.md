@@ -31,3 +31,34 @@ The game includes a predefined list of words that the player can guess. Feel fre
 
 ```python
 words_to_guess = ["january", "border", "image", ...]
+```
+
+## Running the Game
+
+Execute the script in a Python environment:
+
+```python
+python hangman.py
+```
+
+## Game Logic
+
+The script includes functions for game initialization, playing the game, and handling the game loop. The hangman ASCII art is displayed based on the number of incorrect guesses.
+
+```python
+def main():
+    # ... (initialize game)
+
+def play_loop():
+    # ... (prompt to play again)
+
+def hangman():
+    # ... (game logic)
+
+# Start the game
+main()
+hangman()
+```
+
+## License
+This Hangman game is open-source and distributed under the MIT License. Feel free to modify and share the code!
